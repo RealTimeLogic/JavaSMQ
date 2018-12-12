@@ -4,13 +4,13 @@
 
 **The Java SMQ client library is designed for standard Java and Android.**
 
-Note that the SMQ protocol supports both non secure and secure (TLS) connections, however, the Java SMQ client library is designed to operate only over a secure TLS connection. The TLS connection used by Java SMQ is managed by the Java platform's included TLS functionality.
+Note that the SMQ protocol supports both non secure and secure (TLS) connections, however, the Java SMQ client library is designed to operate only over a secure TLS connection. The TLS connection used by Java SMQ is managed by the Java platform's TLS functionality.
 
 # Compiling the Included Java Swing Example
 
-The included example is designed for [Swing](https://en.wikipedia.org/wiki/Swing_(Java)) and not Android. An Android example is also provided (see below).
+This example is designed for [Swing](https://en.wikipedia.org/wiki/Swing_(Java)) and. An Android example is also provided (see below).
 
-You may include the SMQ java code in your Java build, but do not include the file RTL/SMQ/AndroidSMQ.java since this file is designed for Android.
+You may include the SMQ Java code in your Java build, but do not include the file RTL/SMQ/AndroidSMQ.java since this file is designed for Android.
 
 You may compile and run the SMQ LED example on the command line as follows:
 
@@ -19,15 +19,15 @@ javac LedSMQ.java
 java LedSMQ
 ```
 
-The Swing example connects to the [public SMQ test broker](https://simplemq.com/m2m-led/). You may control any of the connected devices or you can run a simulated device by using the [online device C example](https://repl.it/@RTL/SMQ-LED-Demo). Note that the Swing example also opens a browser window and redirects the browser to the LED example's HTML5 UI. This makes it easy for you to see how the Swing UI example can be synchronized in real time with the HTML5 UI example.
+The Swing example connects to the [public SMQ test broker](https://simplemq.com/m2m-led/). You may control any of the connected devices, or you can run a simulated device by using the [online device C example](https://repl.it/@RTL/SMQ-LED-Demo). Note that the Swing example also opens a browser window and redirects the browser to the LED example's HTML5 UI. This makes it easy for you to see how the Swing UI example can be synchronized in real time with the HTML5 UI example.
 
-See the [SMQ LED example's tutorial](https://makoserver.net/blog/2014/12/Browser-to-Device-LED-Control-using-SimpleMQ) for more information on how the example works.
+See the [SMQ LED example's tutorial](https://makoserver.net/blog/2014/12/Browser-to-Device-LED-Control-using-SimpleMQ) for more information on how this example works.
 
 # Compiling for Android
 
 You may include the SMQ java code in your Android build, but do not include the file RTL/SMQ/SwingSMQ.java since this file is designed for Swing.
 
-A ready to use Android example can be downloaded from the [SMQ source code home page](https://realtimelogic.com/products/simplemq/src/) . A pre compiled example is available on [Google Play](https://play.google.com/store/apps/details?id=demo.smq_android) .
+A ready-to-use Android example can be downloaded from the [SMQ source code home page](https://realtimelogic.com/products/simplemq/src/) . A pre compiled example is available on [Google Play](https://play.google.com/store/apps/details?id=demo.smq_android).
 
 # SMQ Library Source Code
 

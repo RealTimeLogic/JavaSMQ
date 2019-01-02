@@ -6,6 +6,10 @@
 
 Note that the SMQ protocol supports both non secure and secure (TLS) connections, however, the Java SMQ client library is designed to operate only over a secure TLS connection. The TLS connection used by Java SMQ is managed by the Java platform's TLS functionality.
 
+# Java SMQ [DZone Article](https://dzone.com/articles/java-iot-device-management)
+
+[![Java SMQ Example](https://dzone.com/storage/temp/10875510-javasmq.gif)](https://dzone.com/articles/java-iot-device-management)
+
 # Compiling the Included Java Swing Example
 
 This example is designed for [Swing](https://en.wikipedia.org/wiki/Swing_(Java)) and. An Android example is also provided (see below).

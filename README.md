@@ -13,7 +13,7 @@ Setup your own IoT solution as follows:
 1. Download and compile the example code "as is". The example, when run, connects to the [online test broker](https://simplemq.com/m2m-led/).
 2. Familiarize yourself with how the example works.
 3. Follow the Setting up a [Low Cost SMQ IoT Broker](https://makoserver.net/blog/2016/04/Setting-up-a-Low-Cost-SMQ-IoT-Broker) for how to setup your own IoT solution.
-4. Modify the example code (LedSMQ.java @ line 42) and change the domain URL (SMQ_DOMAIN). The URL should be set to your own IoT server.
+4. Modify the example code (LedSMQ.java @ line 42) and change the domain URL. The URL should be set to your own IoT server.
 
 # Java SMQ [DZone Article](https://dzone.com/articles/java-iot-device-management)
 

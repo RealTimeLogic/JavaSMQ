@@ -232,7 +232,7 @@ public class LedSMQ extends JFrame  implements IntfOnClose {
           openURL("https://simplemq.com/m2m-led/");
           Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
               public void run() {
-                openURL("https://makoserver.net/blog/2014/12/Browser-to-Device-LED-Control-using-SimpleMQ");
+                openURL("https://makoserver.net/articles/Browser-to-Device-LED-Control-using-SimpleMQ");
                 openURL("https://realtimelogic.com/products/simplemq/");
               }
             }));

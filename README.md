@@ -12,7 +12,7 @@ Setup your own IoT solution as follows:
 
 1. Download and compile the example code "as is". The example, when run, connects to the [online test broker](https://simplemq.com/m2m-led/).
 2. Familiarize yourself with how the example works.
-3. Follow the Setting up a [Low Cost SMQ IoT Broker](https://makoserver.net/blog/2016/04/Setting-up-a-Low-Cost-SMQ-IoT-Broker) for how to setup your own IoT solution.
+3. Follow the Setting up a [Low Cost SMQ IoT Broker](https://makoserver.net/articles/Setting-up-a-Low-Cost-SMQ-IoT-Broker) for how to setup your own IoT solution.
 4. Modify the example code (LedSMQ.java @ line 42) and change the domain URL. The URL should be set to your own IoT server.
 
 # Java SMQ [DZone Article](https://dzone.com/articles/java-iot-device-management)
@@ -34,7 +34,7 @@ java LedSMQ
 
 The Swing example connects to the [public SMQ test broker](https://simplemq.com/m2m-led/). You may control any of the connected devices, or you can run a simulated device by using the [online device C example](https://repl.it/@RTL/SMQ-LED-Demo). Note that the Swing example also opens a browser window and redirects the browser to the LED example's HTML5 UI. This makes it easy for you to see how the Swing UI example can be synchronized in real time with the HTML5 UI example.
 
-See the [SMQ LED example's tutorial](https://makoserver.net/blog/2014/12/Browser-to-Device-LED-Control-using-SimpleMQ) for more information on how this example works.
+See the [SMQ LED example's tutorial](https://makoserver.net/articles/Browser-to-Device-LED-Control-using-SimpleMQ) for more information on how this example works.
 
 # Compiling for Android
 
